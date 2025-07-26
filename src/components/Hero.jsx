@@ -32,24 +32,24 @@ export const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.div className="hero-badge">
-            <span> 👋 Hello, I'm </span>
+          <motion.div className="hero-badge" variants={fadeInUp}
+            whileHover={{ scale: 1.30 }}>
+            <span> Hello, I'm </span>
           </motion.div>
           <motion.h1
             className="glitch"
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            Divyansh 
           </motion.h1>
-          <motion.h2 className="hero-subtitle" variants={fadeInUp}>
+          <motion.h2 className="hero-subtitle" variants={fadeInUp} 
+            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }}>
             {" "}
-            Creative Developer & Designer
+           Undergraduate Scholar in CSE
           </motion.h2>
-          <motion.p className="hero-description" variants={fadeInUp}>
-            I craft beautiful digital experiences that combine stunning design
-            with powerful functionality. Specializing in modern web applications
-            and interactive user interfaces.
+          <motion.p className="hero-description" variants={fadeInUp}   whileHover={{ scale: 1.05, transition: { duration: 0.2 } }} whileTap={{ scale: 0.95 }}>
+           I build fast, scalable, and user-focused digital experiences. I specialize in creating sleek web interfaces and robust mobile apps using modern frameworks and clean code practices.
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -63,7 +63,7 @@ export const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="#contacts"
+              href="#contact"
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -72,10 +72,10 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/Divyansh2-droid" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a href="https://linkedin.com/in/divyansh2902" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
             <motion.a href="https://twitter.com" target="_blank">
@@ -105,12 +105,12 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
-  origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  codename: "Divyansh",
+  origin: "Planet Earth",
+  role: "Android and Web Sorcerer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["Java", JavaScript", "Kotlin", "SQL"],
+    frameworks: ["React", "CSS", "HTML", "Jetpack Compose", "Firebase"],
   },
   traits: [
     "pixel-perfectionist",
@@ -131,10 +131,10 @@ export const Hero = () => {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="card-content">
-              <span className="card-icon"> 💻 </span>
+              <span className="card-icon"> 🤓 </span>
               <span className="card-text">
                 {" "}
-                Currently working on something awesome!
+                Working 24-7
               </span>
             </div>
           </motion.div>

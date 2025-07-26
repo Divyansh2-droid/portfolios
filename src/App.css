@@ -14,8 +14,8 @@
   --background: #0f172a;
   --section-bg: #1e293b;
   --card-bg: #1e293b;
-  --gradient-start: #7c3aed;
-  --gradient-end: #db2777;
+  --gradient-start: #000000;
+  --gradient-end: #000000;
   --nav-bg: rgba(15, 23, 42, 0.8);
   --card-border: rgba(148, 163, 184, 0.1);
 }
@@ -59,7 +59,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent-color);
-  text-shadow: 0 0 10px rgba(244, 114, 182, 0.3);
+  text-shadow: 0 0 10px rgba(212, 244, 114, 0.3);
 }
 
 .nav-links {

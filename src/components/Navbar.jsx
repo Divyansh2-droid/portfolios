@@ -24,10 +24,12 @@ export const Navbar = () => {
     >
       <motion.div
         className="logo"
+
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
+        
       >
-        Portfolio
+        TECHFOLIO
       </motion.div>
 
       <motion.ul

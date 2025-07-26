@@ -39,27 +39,36 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}
       >
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <motion.div
-            className="project-image"
-            style={{ backgroundImage: "url('/projects/ai-saas.png')" }}
-            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-          />
-          <h3> AI SaaS Platform</h3>
-          <p>
-            A modern SaaS platform built with Next.js and OpenAI integration,
-            featuring real-time AI-powered content generation and analytics.
-          </p>
-          <div className="project-tech">
-            <span>Next.js</span>
-            <span>OpenAI</span>
-            <span>TailwindCSS</span>
-          </div>
-        </motion.div>
+       <a
+  href="https://drive.google.com/file/d/1aqBCBTZ4rz55KkxZ2B82tK1Z_tnOhdK7/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ textDecoration: "none", color: "inherit" }} // optional: prevents link styling
+>
+  <motion.div
+    className="project-card"
+    variants={fadeInUp}
+    whileHover={{ y: -10, transition: { duration: 0.2 } }}
+  >
+    <motion.div
+      className="project-image"
+      style={{ backgroundImage: "url('/projects/p1.png')" }}
+      whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+    />
+    <h3>BookHive E-Library Application</h3>
+    <p>
+      BookHive is a mobile application developed using Kotlin that provides users with categorized access to a wide variety of books,
+including Magazines, Religious Texts, Literature, Fiction, History, and Engineering. Designed with a clean architecture, the app is
+structured into layers such as data, domain, and presentation, ensuring better scalability and maintainability.
+    </p>
+    <div className="project-tech">
+      <span>Kotlin</span>
+      <span>Jetpack-Compose</span>
+      <span>Firebase</span>
+      <span>Android Studio</span>
+    </div>
+  </motion.div>
+</a>
 
         <motion.div
           className="project-card"
@@ -69,20 +78,20 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/social-media.png')",
+              backgroundImage: "url('/projects/p2.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Social Media Dashboard</h3>
-          <p>
-            A comprehensive social media management dashboard with analytics,
-            scheduling, and engagement tracking features.
+          <h3>Techfolio - A personal professional portfolio</h3>
+          <p>Techfolio is a modern, responsive personal portfolio website designed to showcase my skills, projects, experience, and professional background in an interactive and visually appealing way. Built with a focus on performance, aesthetics, and accessibility, Techfolio serves as both an online resume and a demonstration of my technical capabilities.
+            
           </p>
           <div className="project-tech">
             <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
           </div>
         </motion.div>
 
@@ -94,15 +103,14 @@ export const Projects = () => {
           <motion.div
             className="project-image"
             style={{
-              backgroundImage: "url('/projects/stopwatch.png')",
+              backgroundImage: "url('/projects/1.png')",
             }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Productivity Timer</h3>
+          <h3>SaaS Landing Page</h3>
           <p>
-            A sleek productivity timer application with customizable work
-            sessions, statistics tracking, and dark mode support.
+            Coming Soon!
           </p>
           <div className="project-tech">
             <span>React</span>
