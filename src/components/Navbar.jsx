@@ -29,7 +29,7 @@ export const Navbar = () => {
         whileTap={{ scale: 0.95 }}
         
       >
-        TECHFOLIO
+        Portfolio
       </motion.div>
 
       <motion.ul
