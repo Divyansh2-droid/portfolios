@@ -100,6 +100,12 @@ structured into layers such as data, domain, and presentation, ensuring better s
           </div>
         </motion.div>
     </a>
+          <a
+  href="https://landing-page-front-end-alpha.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ textDecoration: "none", color: "inherit" }} // optional: prevents link styling
+>
 
         <motion.div
           className="project-card"
@@ -124,6 +130,7 @@ structured into layers such as data, domain, and presentation, ensuring better s
             <span>TailwindCSS</span>
           </div>
         </motion.div>
+            </a>
       </motion.div>
     </motion.section>
   );
