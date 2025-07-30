@@ -69,7 +69,12 @@ structured into layers such as data, domain, and presentation, ensuring better s
     </div>
   </motion.div>
 </a>
-
+  <a
+  href="https://drive.google.com/file/d/1aqBCBTZ4rz55KkxZ2B82tK1Z_tnOhdK7/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ textDecoration: "none", color: "inherit" }} // optional: prevents link styling
+>
         <motion.div
           className="project-card"
           variants={fadeInUp}
@@ -94,6 +99,7 @@ structured into layers such as data, domain, and presentation, ensuring better s
             <span>CSS</span>
           </div>
         </motion.div>
+    </a>
 
         <motion.div
           className="project-card"
