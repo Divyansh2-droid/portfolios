@@ -70,7 +70,7 @@ structured into layers such as data, domain, and presentation, ensuring better s
   </motion.div>
 </a>
   <a
-  href="https://drive.google.com/file/d/1aqBCBTZ4rz55KkxZ2B82tK1Z_tnOhdK7/view?usp=drive_link"
+  href="https://divyanshportfolio-indol.vercel.app/"
   target="_blank"
   rel="noopener noreferrer"
   style={{ textDecoration: "none", color: "inherit" }} // optional: prevents link styling
