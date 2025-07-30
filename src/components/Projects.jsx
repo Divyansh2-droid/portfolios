@@ -83,7 +83,7 @@ structured into layers such as data, domain, and presentation, ensuring better s
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           />
-          <h3>Techfolio - A personal professional portfolio</h3>
+          <h3> Professional Portfolio Project</h3>
           <p>Techfolio is a modern, responsive personal portfolio website designed to showcase my skills, projects, experience, and professional background in an interactive and visually appealing way. Built with a focus on performance, aesthetics, and accessibility, Techfolio serves as both an online resume and a demonstration of my technical capabilities.
             
           </p>
